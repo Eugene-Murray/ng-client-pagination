@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ng-client-pagination-example": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-client-pagination-example"
+    }
+  },
+  "defaultProject": "ng-client-pagination-example",
+  "cli": {
+    "analytics": "84741191-adb0-4c72-b662-f8a1a5691cf9"
+  }
 }
