@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { NgClientPaginationComponent } from './ng-client-pagination.component';
+import { NgClientPaginationComponent } from './component/ng-client-pagination.component';
+import { PaginationService } from './service/ng-client-pagination.service';
 
 
 
@@ -7,6 +8,7 @@ import { NgClientPaginationComponent } from './ng-client-pagination.component';
   declarations: [NgClientPaginationComponent],
   imports: [
   ],
-  exports: [NgClientPaginationComponent]
+  exports: [NgClientPaginationComponent],
+  providers: [PaginationService]
 })
 export class NgClientPaginationModule { }
