@@ -1,6 +1,10 @@
 # ng-client-pagination
 Angular Client Pagination Component Lib Example
 
+Angular Version - 9;
+
+See this version for Angular 12 working code - https://github.com/Eugene-Murray/ngx-em-pagination
+
 NPM Package;
 
 npm i ngx-client-pagination
